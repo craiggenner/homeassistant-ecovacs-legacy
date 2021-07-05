@@ -1,7 +1,8 @@
 {
   "name": "Ecovacs Legacy",
   "iot_class": "Cloud Polling",
-  "zip_release": false,
+  "zip_release": true,
+  "filename": "ecovacs-legacy.zip",
   "hide_default_branch": true,
   "domains": ["ecovacs-legacy", "vacuum", "sensor", "binary_sensor"],
   "render_readme": true
