@@ -10,7 +10,7 @@ Changes are:
 ### Configuration:
 
 ```yaml
-ecovacs:
+ecovacs-legacy:
   ...
   skip_devices:
     - OZMO_U2
