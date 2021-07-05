@@ -45,6 +45,8 @@ def setup(hass, config):
     """Set up the Ecovacs component."""
     _LOGGER.debug("Creating new Ecovacs component")
 
+    hass.data.setdefault(DOMAIN, {})
+
     hass.data[ECOVACS_DEVICES] = []
 
     ecovacs_api = EcoVacsAPI(
