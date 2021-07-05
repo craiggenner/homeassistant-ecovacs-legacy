@@ -1,0 +1,8 @@
+{
+  "domain": "ecovacs-legacy",
+  "name": "Ecovacs Legacy",
+  "documentation": "https://github.com/craiggenner/homeassistant-ecovacs-legacy/blob/main/README.md",
+  "requirements": ["sucks==0.9.4"],
+  "codeowners": ["@craiggenner"],
+  "iot_class": "cloud_push"
+}
